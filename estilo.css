@@ -1,0 +1,81 @@
+p {
+	margin-top: 3px;
+}
+
+h1 {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-family: arial;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+body {
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-family: arial;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.centro {
+	background-color: transparent;
+	border: solid 5px;
+	border-color: black;
+	height: 650px;
+	width: 650px;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	box-shadow: 0 0 30px white;
+}
+
+.logo {
+	background-color: transparent;
+	height: 200px;
+	width: 200px;
+	position: fixed;
+	top: 25px;
+	left: 0px;
+}
+
+#caixa {
+	background-color: white;
+	border-radius: 10px;
+	height: 30px;
+	border: solid 4px;
+}
+
+#caixa:focus {
+	font-size: large;
+	font-family: arial;
+	background-color: gray;
+	color: black;
+	box-shadow: 0 0 15px black;
+}
+
+#botao {
+	height: 40px;
+	width: 180;
+	font-size: x-large;
+	font-family: arial;
+	background-color: gray;
+	border-radius: 20px;
+	color: black;
+	box-shadow: 0 0 10px black;
+}
+
+#botao:hover {
+	font-size: xx-large;
+	font-family: arial;
+	background-color: red;
+	border-radius: 20px;
+	color: white;
+	box-shadow: 0 0 11px black;
+} 

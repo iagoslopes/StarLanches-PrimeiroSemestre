@@ -1,0 +1,227 @@
+p {
+	margin-top: 3px;
+}
+
+h1 {
+	background-color: lightblue;
+	color: black;
+	text-align: center;
+	font-family: arial;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+body {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	text-align: center;
+	font-family: arial;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.propaganda {
+	background-color: rgb(255, 255, 255);
+	height: 500px;
+	width: 200px;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
+
+.propaganda2 {
+	background-color: rgb(255, 255, 255);
+	border-radius: 50px;
+	height: 300px;
+	width: 300px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	top: 250px;
+	right: 0px;
+	margin: auto;
+}
+
+#prop {
+	background-color: rgb(255, 255, 255);
+	border-radius: 50px;
+	height: 300px;
+	width: 300px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	top: 250px;
+	right: 0px;
+	margin: auto;
+}
+
+.principal {
+	background-color:lightblue;
+	height: 863px;
+	width: 1930px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+
+.sky {
+	background-color: white;
+	height: 112px;
+	width: 1930px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.logo {
+	background-color: transparent;
+	height: 200px;
+	width: 200px;
+	position: fixed;
+	top: 25px;
+	left: 0px;
+}
+
+.logohome {
+	background-color: transparent;
+	height: 1650px;
+	width: 275px;
+	position: fixed;
+	top: 25px;
+	left: 150px;
+}
+
+.quemsomos {
+	background-color: transparent;
+	height: 863px;
+	width: 1930px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;	
+}
+
+.texto {
+	background-color: white;
+	border: solid 0px;
+	border-color: black;
+	border-radius: 50px;
+	height: 450px;
+	width: 700px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	top: 300px;
+	right: 0px;
+	margin: auto;
+	color: black;
+}
+
+.cupons {
+	background-color: lightblue;
+	height: 863px;
+	width: 1930px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;	
+}
+
+.texto2 {
+	background-color: transparent;
+	height: 863px;
+	width: 1130px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	margin: auto;
+	color: black;
+}
+
+.cupom1{
+	background-color: white;
+	height: 150px;
+	width: 300px;
+	position: fixed;
+	bottom: 410px;
+	left: 500px;
+	border-radius: 15px;
+}
+
+.cupom2{
+	background-color: white;
+	height: 150px;
+	width: 300px;
+	position: fixed;
+	bottom: 255px;
+	left: 500px;
+	border-radius: 15px;
+}
+
+.cupom3{
+	background-color: white;
+	height: 150px;
+	width: 300px;
+	position: fixed;
+	bottom: 100px;
+	left: 500px;
+	border-radius: 15px;
+}
+
+#caixa {
+	background-color: white;
+	border-radius: 10px;
+	height: 30px;
+	border: solid 4px;
+}
+
+#caixa:focus {
+	font-size: large;
+	font-family: arial;
+	font-style: italic;
+	background-color: gray;
+	color: black;
+	box-shadow: 0 0 15px black;
+}
+
+#botao {
+	height: 40px;
+	width: 180;
+	font-size: large;
+	font-family: arial;
+	font-style: italic;
+	background-color: gray;
+	border-radius: 20px;
+	color: black;
+	box-shadow: 0 0 4px black;
+}
+
+#botao:hover {
+	font-size: x-large;
+	font-family: arial;
+	font-style: italic;
+	background-color: red;
+	border-radius: 20px;
+	color: white;
+	box-shadow: 0 0 5px black;
+}
+
+#botao2 {
+	height: 40px;
+	width: 180;
+	font-size: x-large;
+	font-family: 'FontAwesome';
+	background-color: transparent;
+	border-radius: 8px;
+	color: black;
+	text-decoration: none;
+}
+
+#botao2:hover {
+	font-size: x-large;
+	font-family: 'FontAwesome';
+	background-color: lightblue;
+	border-radius: 8px;
+	color: black;
+	
+}

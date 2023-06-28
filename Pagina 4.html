@@ -1,0 +1,50 @@
+<html>
+<head>
+<title> Pagina 4 </title>
+</head>
+<script language='JavaScript'>
+	function verifica_cores() {
+		var cores=document.frm_login.cor.value;
+		switch (cores) {
+			case 'azul':
+				document.bgColor='DarkBlue';
+				break;
+			case 'verde':
+				document.bgColor='DarkGreen';
+				break;
+			case 'vermelho':
+				document.bgColor='DarkRed';
+				break;
+			case 'cinza':
+				document.bgColor='Gray';
+				break;
+			case 'preto':
+				document.bgColor='Black';
+				break;
+			default:
+				document.bgColor='SaddleBrown';
+				break;
+		}		
+	}
+	
+</script>
+
+<body bgcolor="black">
+<font color="white">
+<form name="frm_login">
+	<fieldset>
+	<center>
+	<legend>Selecione uma cor de fundo:<br>
+		 <input type='radio' name='cor' value='azul' onCLICK="verifica_cores()">Azul &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 <input type='radio' name='cor' value='verde' onCLICK="verifica_cores()">Verde &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 <input type='radio' name='cor' value='vermelho' onCLICK="verifica_cores()">Vermelho &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 <input type='radio' name='cor' value='cinza' onCLICK="verifica_cores()">Cinza &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 <input type='radio' name='cor' value='preto' onCLICK="verifica_cores()">Preto &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 <input type='radio' name='cor' value='marrom' onCLICK="verifica_cores()">Marrom 
+		 
+	</fieldset>
+	</center>
+</form>
+</font>	
+</body>
+</html> 

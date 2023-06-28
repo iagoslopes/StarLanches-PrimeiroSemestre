@@ -1,0 +1,72 @@
+p {
+	margin-top: 3px;
+}
+
+h1 {
+	background-color: gray;
+	color: black;
+	text-align: center;
+	font-family: arial;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+body {
+	background-color: lightblue;
+	color: white;
+	text-align: center;
+	font-family: arial;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.cadastro {
+	background-color:lightblue;
+	height: 825px;
+	width: 1130px;
+	position: fixed;
+	top: 0px;
+	left: 400px;
+}
+
+.logo {
+	background-color: lightblue;
+	height: 200px;
+	width: 200px;
+	position: fixed;
+	top: 25px;
+	left: 0px;
+}
+
+#caixa {
+	background-color: white;
+	border-radius: 10px;
+	height: 30px;
+	border: solid 3px;
+}
+
+#caixa:focus {
+	font-size: large;
+	font-family: arial;
+	background-color: gray;
+	color: black;
+	box-shadow: 0 0 8px black;
+}
+
+#botao {
+	font-size: xx-large;
+	font-family: arial;
+	background-color: gray;
+	border-radius: 10px;
+	color: black;
+	box-shadow: 0 0 10px black;
+}
+
+#botao:hover {
+	font-size: xx-large;
+	font-family: arial;
+	background-color: red;
+	border-radius: 10px;
+	color: white;
+	box-shadow: 0 0 11px black;
+}

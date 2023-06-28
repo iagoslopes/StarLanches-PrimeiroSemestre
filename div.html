@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Exemplo de DIV</title>
+
+<!-- importar arquivo referência externa -->
+
+<style type="text/CSS">
+  @import url("estilo.css")
+</style>
+<script language='JavaScript'>
+function login() {
+		var user=document.frm_login.txt_usuario.value;
+		var email=document.frm_login.txt_usuario.value;
+		var pass=document.frm_login.txt_senha.value;
+		
+        if ((user=='x17t' || email=='x17t@gmail') && pass=='X17tyt') {
+			alert('Conta Válida com Sucesso!!!');
+			window.location='Itens.html';
+			}
+		else {
+			alert('Conta Inválida!!!');
+			document.frm_login.txt_usuario.value="";
+			document.frm_login.txt_senha.value="";	
+			document.frm_login.txt_usuario.focus();
+			}
+	}	
+	function limpar() {
+		document.frm_login.txt_usuario.value='';
+		document.frm_login.txt_senha.value='';
+		document.frm_login.txt_usuario.focus();
+	}
+	function verifica_cores() {
+		var cores=document.frm_login.cor.value;
+		switch (cores) {
+			case 'azul':
+				document.bgColor='DarkBlue';
+				break;
+			case 'verde':
+				document.bgColor='DarkGreen';
+				break;
+			case 'vermelho':
+				document.bgColor='DarkRed';
+				break;
+			case 'cinza':
+				document.bgColor='Gray';
+				break;
+			case 'preto':
+				document.bgColor='Black';
+				break;
+			default:
+				document.bgColor='SaddleBrown';
+				break;
+		}		
+	}
+	
+</script>
+</head>
+
+<body bgColor='#363636'>
+<div class="centro">
+<form name="frm_login">
+   <h1>LOGIN</h1>
+   <fieldset>
+      <legend>Identificação da conta:</legend>
+	  <p>
+	  Usuário ou E-mail:<br>
+	  <input id='caixa' type="text" name='txt_usuario' maxlength="50" size="50"><p>
+	  Senha:<br>
+	  <input id='caixa' type="password" name='txt_senha' maxlength="50" size="50"><p>
+	  <input id='botao' type="button" name='btn_login' value="Entrar" onCLICK='login()' >&nbsp;&nbsp;
+	  <input id='botao' type="button" name='btn_limpar' value="Limpar" onCLICK='limpar()'>
+	</fieldset>
+	
+	<fieldset>
+	<legend>Selecione uma cor de fundo:</legend><br>
+		 <input type='radio' name='cor' value='azul' onCLICK="verifica_cores()">Azul &nbsp;&nbsp;
+		 <input type='radio' name='cor' value='verde' onCLICK="verifica_cores()">Verde &nbsp;&nbsp;
+		 <input type='radio' name='cor' value='vermelho' onCLICK="verifica_cores()">Vermelho &nbsp;&nbsp;
+		 <input type='radio' name='cor' value='cinza' onCLICK="verifica_cores()">Cinza &nbsp;&nbsp;
+		 <input type='radio' name='cor' value='preto' onCLICK="verifica_cores()">Preto &nbsp;&nbsp;
+		 <input type='radio' name='cor' value='marrom' onCLICK="verifica_cores()">Marrom 
+	</fieldset>
+</form>
+</div>
+</body>
+</html>

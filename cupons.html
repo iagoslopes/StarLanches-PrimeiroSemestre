@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>resgatar</title>
+
+    <script language='JavaScript'>
+        function resgatar(){
+			var Cupom=document.frm_cupons.txt_resgatar.value;
+		
+			if (Cupom=='PrimeiraCompra' || Cupom=='Quero25%' || Cupom=='Quero30%') {
+				alert('Cupom resgatado com Sucesso!!!');
+				window.location='projeto.html';
+			}
+			else {
+				alert('Cupom Inválida!!!');
+				document.frm_cupons.txt_resgatar.value="";	
+				document.frm_cupons.txt_resgatar.focus();
+			}
+        }
+    </script>
+	</head>
+	
+	<link href="geral.css" rel="stylesheet">
+	<body>
+	<div class="cupons">
+	<div class="logo">
+		<img src="logo1.png" width="400" height="250">
+	<div class="texto2">
+	<form name="frm_cupons">
+	<br>
+        <h3><p>Resgatar cupons</p></h3> 
+        <input id='caixa' type="text" name='txt_resgatar' maxlength="50" size="50"><p>
+        <input id='botao' type="button" name="btn_salva" value="Resgatar" onCLICK='resgatar()'>
+	</form>
+	<div class="cupom1">30% de desconto<br>
+		<p>Cupom: <h3>PrimeiraCompra</h3></p>
+	<div class="cupom2">25% Acima de R$50 reais<br>
+		<p>Cupom: <h3>Quero25%</h3></p>
+	<div class="cupom3">30% Acima de R$75 reais<br>
+		<p>Cupom:<h3>Quero30%</h3></p>
+    </body>
+	</div>
+</html>

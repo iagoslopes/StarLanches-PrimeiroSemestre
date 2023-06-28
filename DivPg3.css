@@ -1,0 +1,41 @@
+<style type="text/CSS">
+p {
+	margin-top: 3px;
+}
+
+h1 {
+    background-color: black;
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-family: arial;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+body {
+	background-color: DarkBlue;
+	color: white;
+	text-align: center;
+	font-family: arial;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.centro {
+	background-color: darkblue;
+	position: fixed;
+	width: 250;
+	height: 10;
+	left: 0px;
+	top: 0px;
+}
+.ester egg{
+	background-color: red;
+	position: fixed;
+	width: 250;
+	height: 10;
+	right: 500px;
+	top: 0px;
+}
+</style>
